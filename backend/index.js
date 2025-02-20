@@ -21,7 +21,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
 const corsOptions = {
-    origin: 'https://jobwebsite-youtube-1.onrender.com/onrender.com/',
+    origin: 'https://job-portal-website-a.onrender.com/',
     credentials: true
 };
 
