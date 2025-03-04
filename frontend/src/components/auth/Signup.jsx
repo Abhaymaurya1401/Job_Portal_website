@@ -90,7 +90,7 @@ if(input.file){
           <div>
             <Label>Email</Label>
             <Input type="email" value={input.email} name="email"
-              onChange={changeEventHandler} placeholder="abhay@gmail.com" />
+              onChange={changeEventHandler} placeholder="abhaymaurya@gmail.com" />
           </div>
           <div>
             <Label>Phone Number</Label>
