@@ -68,7 +68,7 @@ const Login = () => {
           <h1 className="font-bold text-xl mb-5">Log in</h1>
           <div>
             <Label>Email</Label>
-            <Input type="email" placeholder="abhaymaurya@gmail.com" name="email" value={input.email} onChange={changeEventHandler} />
+            <Input type="email" placeholder="abhay@gmail.com" name="email" value={input.email} onChange={changeEventHandler} />
           </div>
           <div>
             <Label>Password</Label>
@@ -113,4 +113,3 @@ const Login = () => {
 }
 
 export default Login
-

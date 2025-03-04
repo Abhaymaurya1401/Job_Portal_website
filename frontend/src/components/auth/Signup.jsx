@@ -1,4 +1,4 @@
-import React, { useState ,useEffect} from "react";
+import React, { useState } from "react";
 import Navbar from "../shared/Navbar";
 import { Label } from "../ui/label";
 import { Input } from "../ui/input";
@@ -84,13 +84,13 @@ if(input.file){
               value={input.fullName}
               name="fullName"
               onChange={changeEventHandler}
-              placeholder="Aanchal mittal"
+              placeholder="Abhay Maurya"
             />
           </div>
           <div>
             <Label>Email</Label>
             <Input type="email" value={input.email} name="email"
-              onChange={changeEventHandler} placeholder="aanchalmittal123@gmail.com" />
+              onChange={changeEventHandler} placeholder="abhay@gmail.com" />
           </div>
           <div>
             <Label>Phone Number</Label>
